@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CreditModelStoreContainer" CdmEntityContainer="CreditEntities">
+    <EntitySetMapping Name="CREDIT_TYPES">
+      <EntityTypeMapping TypeName="CreditModel.CREDIT_TYPES">
+        <MappingFragment StoreEntitySet="CREDIT_TYPES">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CREDITS">
+      <EntityTypeMapping TypeName="CreditModel.CREDIT">
+        <MappingFragment StoreEntitySet="CREDITS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DISBURSEMENT" ColumnName="DISBURSEMENT" />
+          <ScalarProperty Name="COMMISSION" ColumnName="COMMISSION" />
+          <ScalarProperty Name="INTEREST_RATE" ColumnName="INTEREST_RATE" />
+          <ScalarProperty Name="TERM" ColumnName="TERM" />
+          <ScalarProperty Name="CREDIT_TYPE" ColumnName="CREDIT_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

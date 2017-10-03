@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CreditModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CREDIT_TYPES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="CREDITS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="DISBURSEMENT" Type="int" />
+    <Property Name="COMMISSION" Type="int" />
+    <Property Name="INTEREST_RATE" Type="int" />
+    <Property Name="TERM" Type="int" />
+    <Property Name="CREDIT_TYPE" Type="int" />
+  </EntityType>
+  <Association Name="FK_CREDITTYPE">
+    <End Role="CREDIT_TYPES" Type="Self.CREDIT_TYPES" Multiplicity="0..1" />
+    <End Role="CREDITS" Type="Self.CREDITS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CREDIT_TYPES">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CREDITS">
+        <PropertyRef Name="CREDIT_TYPE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CreditModelStoreContainer">
+    <EntitySet Name="CREDIT_TYPES" EntityType="Self.CREDIT_TYPES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CREDITS" EntityType="Self.CREDITS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CREDITTYPE" Association="Self.FK_CREDITTYPE">
+      <End Role="CREDIT_TYPES" EntitySet="CREDIT_TYPES" />
+      <End Role="CREDITS" EntitySet="CREDITS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

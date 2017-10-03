@@ -1,0 +1,15 @@
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\bin\Debug\CreditForm.exe.config
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\bin\Debug\CreditForm.exe
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\bin\Debug\CreditForm.pdb
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\bin\Debug\EntityFramework.dll
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\bin\Debug\EntityFramework.xml
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.Properties.Resources.resources
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.csproj.GenerateResource.Cache
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.exe
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.pdb
+c:\users\samir.dadash-zada\documents\visual studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.csprojResolveAssemblyReference.cache
+C:\Users\samir.dadash-zada\Documents\Visual Studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.CreditForm.resources
+C:\Users\samir.dadash-zada\Documents\Visual Studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.Kardex.resources
+C:\Users\samir.dadash-zada\Documents\Visual Studio 2017\Projects\CreditForm\CreditForm\obj\Debug\CreditForm.csproj.ResolveComReference.cache
